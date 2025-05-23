@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dynamometer by category</h1>
+    <div id="filter-buttons">
+    <button class="active"  data-filter="all">All</button>
+    <button  data-filter="fruit">Fruit</button>
+    <button    data-filter="vegetable">Vegetables</button>
+    <button   data-filter="bakery">Bakery</button>
+    </div>
+    <br><br>
+    <div class="maindiv" id="item-container">
+        <div class="card" data-category="fruit">
+            <img src="img/apple.jpg" alt="">
+            <h4>Apple</h4>
+            <p >Rs.120/kg</p>
+        </div>
+
+        <div class="card" data-category="fruit">
+            <img src="img/banana.jpg" alt="">
+            <h4>Banana</h4>
+            <p>Rs.90/kg</p>
+        </div>
+
+        <div class="card" data-category="vegetables">
+            <img src="img/carrot.jpg" alt="">
+            <h4>Carrot</h4>
+            <p>Rs.60/kg</p>
+        </div>
+
+        <div class="card" data-category="vegetable">
+            <img src="img/broccoli.jpg" alt="">
+            <h4>Broccoli</h4>
+            <p>Rs.150/kg</p>
+        </div>
+
+        <div class="card" data-category="fruit">
+            <img src="img/strawberry.jpg" alt="">
+            <h4>Strawberry</h4>
+            <p>Rs.250/kg</p>
+        </div>
+
+        <div class="card" data-category="vegetable">
+            <img src="img/eggplant.jpg" alt="">
+            <h4>Eggplant</h4>
+            <p>Rs.70/kg</p>
+        </div>
+
+        <div class="card" data-category="bakery">
+            <img src="img/bread.jpg" alt="">
+            <h4>Bread</h4>
+            <p>Rs.50/loaf</p>
+        </div>
+
+        <div class="card" data-category="bakery">
+            <img src="img/cake.jpg" alt="">
+            <h4>Cake</h4>
+            <p>Rs.400/piece</p>
+        </div>
+
+    </div> 
+    <script src="script.js"> </script>
+</body>
+</html>
